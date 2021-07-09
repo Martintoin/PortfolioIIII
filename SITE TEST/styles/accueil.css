@@ -1,0 +1,155 @@
+/* DEBUT DU HEADER */
+
+header{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    background-color: #ECF0F3;
+    box-shadow: 0px 5px 10px #343538;
+}
+
+.cate{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: medium;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 4pt;
+}
+
+
+.numérique{
+        margin: 30px;
+}
+
+a.nu{
+        position: relative;
+        text-decoration: none;
+        color: black;
+}
+
+a.nu:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -10px;
+        left: 0;
+        background-color:black;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+        font-weight: normal;
+      }
+
+      a.nu:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+        font-weight: bold;
+      }
+
+      .ana{
+        position: relative;
+        text-decoration: none;
+        color: black;
+}
+
+a.ana:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -10px;
+        left: 0;
+        background-color:black;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+        font-weight: normal;
+      }
+
+      a.ana:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+
+.logo{
+    margin: 25px 50px 15px 20px;
+    margin-right: 1170px;
+}
+
+
+.numérique{
+    width: 100px;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+.analogique{ 
+    width: 100px;
+    margin: 30px;
+    margin-right: 5px;
+}
+
+/* FIN DU HEADER*/
+
+body{
+    background-color: #ECF0F3;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.bien{  
+    position: absolute;
+    top: 15%;
+    left: 900px;
+    transform: translate(-25%, -50%);
+    font-size: 25pt;
+    margin-top: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    color: white;
+}
+
+
+
+.dec{
+    position: absolute;
+    top: 52%;
+    left: 915px;
+    transform: translate(-25%, -50%);
+    color: white;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    border: white 1px solid;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    transition: 0.5s;
+}
+
+.decc{
+    text-decoration: none;
+    color: white;
+}
+
+
+.decc:hover{
+color: black;
+}
+.dec:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
